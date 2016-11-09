@@ -36,7 +36,6 @@ class ThreadSocket extends Thread {
                 postData = postData.substring(5);
             }
             // Send the HTML page
-
             out.println("<H1 style=\"font-family: roboto;\">Welcome you are " + postData + "</H1>");
             out.println("<form name=\"input\" action=\"form_submited\" method=\"post\">");
             out.println("<input style=\"border-radius:5px; padding:10px\" placeholder=\"username\" type=\"text\" name=\"user\"><input style=\"border-radius:5px; background-color:#009999; padding:10px; margin:5px;\" type=\"submit\" value=\"Great me!\"></form>");
